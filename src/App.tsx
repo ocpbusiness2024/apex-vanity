@@ -46,7 +46,8 @@ export default function App() {
 
   return (
     <div style={{ padding: 24 }}>
-      <h1>Apex Vanity</h1>
+      {/* <h1>Apex Vanity</h1> */}
+      <h1>Test</h1>
 
       {!session ? (
         <button onClick={signInWithGoogle}>Sign in with Google</button>
